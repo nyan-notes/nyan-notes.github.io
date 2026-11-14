@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Privacy · Nyan Notes</title>
+<link rel="icon" href="assets/icon.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="wrap nav">
+  <a class="brand" href="./"><img src="assets/icon.png" alt="">Nyan Notes</a>
+  <nav><a href="./#features">Features</a><a href="./#install">Install</a><a href="privacy.html">Privacy</a></nav>
+  <a class="btn small" href="download/Nyan-Notes-0.4.0.zip">Download</a>
+</header>
+
+<main class="page">
+  <h1>Privacy</h1>
+  <p class="date">Last updated November 15, 2026</p>
+
+  <p>The short version: Nyan Notes doesn't collect anything. Your notes stay on your PC.</p>
+
+  <h2>The app</h2>
+  <ul>
+    <li>There's no account, no sign-in and no cloud.</li>
+    <li>The app doesn't send your notes, your file names or anything about how you use it to anyone. It has no analytics and no tracking.</li>
+    <li>It doesn't check for updates or contact any server on its own.</li>
+    <li>Pictures from the web that a note points to (an <code>https://</code> image) are loaded from their website, like in any markdown viewer. Links you click open in your own browser.</li>
+  </ul>
+
+  <h2>What it keeps on your PC</h2>
+  <ul>
+    <li>Its settings, your recent files and where you were in each note, in <code>%APPDATA%\NyanNotes</code>.</li>
+    <li>Older versions of your notes (a copy of a file before a save replaces it, kept for up to 60 days), in <code>%LOCALAPPDATA%\NyanNotes\history</code>.</li>
+    <li>Uninstalling removes the app. To remove these too, delete those two folders.</li>
+  </ul>
+
+  <h2>This website</h2>
+  <p>This site has no cookies, no analytics and no forms. The company hosting it may keep standard technical logs (such as IP addresses) to run and protect the service.</p>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>Nyan Notes 0.4.0</span>
+    <div class="right"><a href="./#install">Install</a><a href="privacy.html">Privacy</a></div>
+  </div>
+</footer>
+</body>
+</html>
