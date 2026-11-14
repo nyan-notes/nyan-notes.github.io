@@ -9,7 +9,7 @@
 html{scroll-behavior:smooth}
 body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.65 var(--sans);-webkit-font-smoothing:antialiased}
 a{color:inherit}
-img{max-width:100%;display:block}
+img{max-width:100%;height:auto;display:block} /* height:auto: the width/height attributes only reserve the shape; without it they stretch */
 .wrap{max-width:1080px;margin:0 auto;padding:0 28px}
 kbd{font:12px var(--sans);border:1px solid #dcdcd8;border-bottom-width:2px;border-radius:5px;padding:1px 6px;color:var(--soft);background:var(--panel);white-space:nowrap}
 code{font:.88em var(--mono);background:var(--code);padding:.1em .35em;border-radius:5px}
@@ -34,7 +34,7 @@ code{font:.88em var(--mono);background:var(--code);padding:.1em .35em;border-rad
 .hero .logo{width:76px;height:76px;margin:0 auto 26px;filter:drop-shadow(0 8px 20px rgba(0,0,0,.08))}
 .hero h1{font-size:clamp(36px,6vw,58px);line-height:1.08;letter-spacing:-.035em;margin:0 0 18px;font-weight:700}
 .hero p.lead{font-size:clamp(17px,2.2vw,20px);color:var(--muted);max-width:620px;margin:0 auto 34px}
-.shot{margin:56px auto 0;max-width:1000px;border-radius:14px;overflow:hidden;box-shadow:0 30px 80px rgba(20,20,40,.16),0 4px 14px rgba(20,20,40,.08)}
+.shot{margin:56px auto 0;width:100%;max-width:1000px;border-radius:14px;overflow:hidden;box-shadow:0 30px 80px rgba(20,20,40,.16),0 4px 14px rgba(20,20,40,.08)}
 
 /* sections */
 section{padding:84px 0}
